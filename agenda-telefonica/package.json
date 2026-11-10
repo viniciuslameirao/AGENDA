@@ -1,0 +1,14 @@
+{
+  "name": "agenda-telefonica",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "start": "node scripts/local.mjs",
+    "test": "node --test scripts/api.test.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}
